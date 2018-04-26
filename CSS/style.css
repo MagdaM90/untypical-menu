@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+#menu {
+    background-color: darkblue;
+    height: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+    margin: 25px;
+}
+
+.navlink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuPosition {
+    line-height: 50px;
+    position: absolute;
+}
+
+#leftMenu {
+    left: 20px;
+}
+
+#rightMenu {
+    right: 20px;
+}
+
+.box {
+    float: left;
+}
+
+.untypical {
+    border-top: solid 25px darkblue;
+    border-bottom: solid 25px transparent;
+}
+
+#left {
+    border-left: solid 25vw darkblue;
+    border-right: solid 25vw transparent;
+}
+
+#right {
+    border-left: solid 25vw transparent;
+    border-right: solid 25vw darkblue;
+}
+
+#content {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 80px;
+}
